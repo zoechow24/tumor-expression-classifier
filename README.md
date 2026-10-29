@@ -26,7 +26,7 @@ The dataset utilized is the classic **Wisconsin Breast Cancer Dataset**, nativel
 ### Clinical Valuation Analysis
 Through a medical oncology lens, minimizing False Negatives (missing an active cancer case) is significantly more vital than avoiding False Positives. Our pipeline optimizes this clinical threshold by achieving a **Malignant Recall of 0.93** (successfully catching 93% of aggressive cancer cases) while maintaining a balanced **Precision of 0.95**. This clinical safety profile is further validated by a **Specificity of 92.86%**, demonstrating that the pipeline is highly adept at identifying benign tissue correctly and preventing unneeded patient anxiety or invasive follow-up procedures.
 
-## 🛠️ Installation & Reproduction
+## Installation & Reproduction
 ```bash
 # Clone the repository
 git clone https://github.com/zoechow24/tumor-expression-classifier.git
